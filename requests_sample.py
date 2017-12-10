@@ -1,12 +1,13 @@
 ########### Python 3.6 #############
 import requests, json
+import os
 
 ###############################################
 #### Update or verify the following values. ###
 ###############################################
 
 # Replace the subscription_key string value with your valid subscription key.
-subscription_key = 'please enter your subscription key'
+subscription_key = os.environ['COMPUTER_VISION_API_KEY']
 
 # Replace or verify the region.
 #
