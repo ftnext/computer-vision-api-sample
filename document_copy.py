@@ -35,7 +35,7 @@ body = "{'url': 'https://emotionwebsto.blob.core.windows.net/handson/emotionweb_
 
 try:
     # Execute the REST API call and get the response.
-    conn = http.client.HTTPSConnection('westcentralus.api.cognitive.microsoft.com')
+    conn = http.client.HTTPSConnection('westcentralus.api.cognitive.microsoft.com')  ##### (2) #####
     conn.request("POST", "/vision/v1.0/analyze?%s" % params, body, headers) ##### (5) #####
     response = conn.getresponse()
     data = response.read() ##### (6) #####
