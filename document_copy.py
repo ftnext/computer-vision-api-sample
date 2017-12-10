@@ -1,12 +1,13 @@
 ########### Python 3.6 #############
 import http.client, urllib.request, urllib.parse, urllib.error, base64, json
+import os
 
 ###############################################
 #### Update or verify the following values. ###
 ###############################################
 
 # Replace the subscription_key string value with your valid subscription key.
-subscription_key = 'please enter your subscription key' ##### (1) #####
+subscription_key = os.environ['COMPUTER_VISION_API_KEY'] ##### (1) #####
 
 # Replace or verify the region.
 #
