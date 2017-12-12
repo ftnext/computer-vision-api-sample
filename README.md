@@ -8,6 +8,6 @@
 サンプルコードをもとに関数化を進めています。
 
 ### 関連資料
-* [Python入門者でもComputer Vision APIを叩くのは怖くない]()
+* [Python入門者でもComputer Vision APIを叩くのは怖くない](https://qiita.com/ftnext/items/970069ff509f69812f23)
 上記Qiita記事で用いたdocument_copy.pyはこちらをご覧ください(コミットID: 5ba8f8e)
 https://github.com/ftnext/computer-vision-api-sample/blob/5ba8f8e5abe026863296c9eba5ebbedbda987cbc/document_copy.py
